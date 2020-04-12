@@ -26,12 +26,12 @@ The first two columns are Identifiers:
 
 There are 6 possible values:
 
-WALKING: subject was walking
-WALKING_UPSTAIRS: subject was walking upstairs
-WALKING_DOWNSTAIRS: subject was walking downstairs
-SITTING: subject was sitting
-STANDING: subject was standing
-LAYING: subject was laying
+* WALKING: subject was walking
+* WALKING_UPSTAIRS: subject was walking upstairs
+* WALKING_DOWNSTAIRS: subject was walking downstairs
+* SITTING: subject was sitting
+* STANDING: subject was standing
+* LAYING: subject was laying
 
 ## The Measurements
 As I mentioned above,the variables remaining are just the calculatd means and standard deviations of these sets of data:
