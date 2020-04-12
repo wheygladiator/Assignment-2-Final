@@ -5,7 +5,7 @@ This repository documents the R code and documentation files for the Data Scienc
 
 The dataset being used is: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-# Introduction
+# Workflow
 
 The script `run_analysis.R`performs the 5 steps of project.
 The data is contained in `x_train`, `x_test`,`y_train`, `y_test`, `subject_train` and `subject_test` 
