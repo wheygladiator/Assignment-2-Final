@@ -14,23 +14,23 @@ Course Project - Getting and Cleaning Data
 #The following is a code snippet showing the different files used from the 'run_analysis.R' file:
 
 #x-datasets
-x.train <- read.table("./UCI HAR Dataset/train/X_train.txt")
-x.test <- read.table("./UCI HAR Dataset/test/X_test.txt")
+* x.train <- read.table("./UCI HAR Dataset/train/X_train.txt")
+* x.test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 #y-datasets
-y.train <- read.table("./UCI HAR Dataset/train/y_train.txt")
-y.test <- read.table("./UCI HAR Dataset/test/y_test.txt")
+* y.train <- read.table("./UCI HAR Dataset/train/y_train.txt")
+* y.test <- read.table("./UCI HAR Dataset/test/y_test.txt")
 #subject-datasets
-subject.train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
-subject.test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+* subject.train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
+* subject.test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
 ## Identififiers and the code
 The first two columns - Subject and Activity - are Identifiers.
 * Subject: the ID of the Subject
 * Activity: the Name of the Activity performed by the subject when measurements were taken
 
-'#feature and activity
-activity.labels <- read.table("./UCI HAR Dataset/activity_labels.txt", colClasses="character")
-features  <- read.table("./UCI HAR Dataset/features.txt", colClasses="character")'
+#feature and activity
+* activity.labels <- read.table("./UCI HAR Dataset/activity_labels.txt", colClasses="character")
+* features  <- read.table("./UCI HAR Dataset/features.txt", colClasses="character")'
 
 ## Measurements
 As mentioned above,the variables remaining are just the calculatd means and standard deviations of these sets of data:
