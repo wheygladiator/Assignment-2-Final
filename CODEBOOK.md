@@ -11,13 +11,15 @@ Course Project - Getting and Cleaning Data
 
 # My desription 
 
-#The following is the code I used for loading the data to 'run_analysis.R'
+The following is the code I used for loading the data to 'run_analysis.R'
 * x.train <- read.table("./UCI HAR Dataset/train/X_train.txt")
 * x.test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 * y.train <- read.table("./UCI HAR Dataset/train/y_train.txt")
 * y.test <- read.table("./UCI HAR Dataset/test/y_test.txt")
 * subject.train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 * subject.test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+
+* features.txt contains the correct names for the x_data dataset. 
 
 ## The Identififiers
 The first two columns are Identifiers:
