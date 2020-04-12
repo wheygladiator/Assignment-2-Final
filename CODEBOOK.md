@@ -19,17 +19,22 @@ Course Project - Getting and Cleaning Data
 * subject.train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 * subject.test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
-## Identififiers and the code
+## The Identififiers
 The first two columns are Identifiers:
 * Subject: the identidy of the Subject
 * Activity: the Name of the Activity performed by the subject when measurements were taken
 
-# My code
-* activity.labels <- read.table("./UCI HAR Dataset/activity_labels.txt", colClasses="character")
-* features  <- read.table("./UCI HAR Dataset/features.txt", colClasses="character")'
+There are 6 possible values:
 
-## Measurements
-As mentioned above,the variables remaining are just the calculatd means and standard deviations of these sets of data:
+WALKING: subject was walking
+WALKING_UPSTAIRS: subject was walking upstairs
+WALKING_DOWNSTAIRS: subject was walking downstairs
+SITTING: subject was sitting
+STANDING: subject was standing
+LAYING: subject was laying
+
+## The Measurements
+As I mentioned above,the variables remaining are just the calculatd means and standard deviations of these sets of data:
 (Even if I do not give a detailed description of what each data value means, you can see what it means by comparing it with the original data column.)
 
 * tBodyAccMeanX
