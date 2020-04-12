@@ -1,23 +1,36 @@
-Getting and Cleaning Data - Course Project
+Course Project - Getting and Cleaning Data
 ==========================================
 
-# Modifications
+# The modifacations which I did
 
-## the original data was modifies by
+* I merged the training and the test sets to create one data set
+* I extracted only the measurements on the mean and standard deviation for each measurement
+* I used descriptive activity names to name the activities in the data set
+* I appropriately labeled the data set with descriptive variable names
+* I created a second, independent tidy data set with the average of each variable for each activity and each subject
 
-* Merging the training and the test sets to create one data set.
-* Extracting only the measurements on the mean and standard deviation for each measurement.
-* Useing descriptive activity names to name the activities in the data set
-* Appropriately labeling the data set with descriptive variable names.
-* Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+# My desription 
 
+#The following is a code snippet showing the different files used from the 'run_analysis.R' file:
 
-# Descriptions
+#x-datasets
+x.train <- read.table("./UCI HAR Dataset/train/X_train.txt")
+x.test <- read.table("./UCI HAR Dataset/test/X_test.txt")
+#y-datasets
+y.train <- read.table("./UCI HAR Dataset/train/y_train.txt")
+y.test <- read.table("./UCI HAR Dataset/test/y_test.txt")
+#subject-datasets
+subject.train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
+subject.test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
-## Identififiers
+## Identififiers and the code
 The first two columns - Subject and Activity - are Identifiers.
 * Subject: the ID of the Subject
 * Activity: the Name of the Activity performed by the subject when measurements were taken
+
+'#feature and activity
+activity.labels <- read.table("./UCI HAR Dataset/activity_labels.txt", colClasses="character")
+features  <- read.table("./UCI HAR Dataset/features.txt", colClasses="character")'
 
 ## Measurements
 As mentioned above,the variables remaining are just the calculatd means and standard deviations of these sets of data:
