@@ -34,8 +34,9 @@ There are 6 possible values:
 * LAYING: subject was laying
 
 ## The Measurements
-As I mentioned above,the variables remaining are just the calculatd means and standard deviations of these sets of data:
-(Even if I do not give a detailed description of what each data value means, you can see what it means by comparing it with the original data column.)
+The variables are just the calculated standard deviations and means of these sets of data:
+By comparing my data set with the original data column you can see what it means. 
+The values are the average for each feature by subject and activity
 
 * tBodyAccMeanX
 * tBodyAccMeanY
