@@ -20,11 +20,11 @@ Course Project - Getting and Cleaning Data
 * subject.test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
 ## Identififiers and the code
-The first two columns - Subject and Activity - are Identifiers.
-* Subject: the ID of the Subject
+The first two columns are Identifiers:
+* Subject: the identidy of the Subject
 * Activity: the Name of the Activity performed by the subject when measurements were taken
 
-#feature and activity
+# My code
 * activity.labels <- read.table("./UCI HAR Dataset/activity_labels.txt", colClasses="character")
 * features  <- read.table("./UCI HAR Dataset/features.txt", colClasses="character")'
 
