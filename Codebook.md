@@ -37,7 +37,7 @@ There are 6 possible values:
 
 ## The Measurements
 The variables are just the calculated standard deviations and means of these sets of data:
-By comparing my data set with the original data column you can see what it means. 
+By comparing my data set with the original data column you can see what it means. The 'X','Y' and 'Z' in the variable refers to the axial direction in which the mesaurement was taken. 
 
 * tBodyAccMeanX
 * tBodyAccMeanY
