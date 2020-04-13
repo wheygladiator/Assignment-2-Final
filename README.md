@@ -17,4 +17,4 @@ Finally, `averages_data` contains the relevant averages which will be later stor
 
 ## Included Files
 `run_analysis.R` contains all the code to perform my analyses described in the project. 
-The output of the 5 steps is called `tidydata.txt`, which was also uploaded. It also contains a code book `CODEBOOK.md` that is an instruction and additional informtion for the project.
+The output of the 5 steps is called `tidydata.txt`, which was also uploaded. It also contains a code book `Codebook.md` that is an instruction and additional informtion for the project.
