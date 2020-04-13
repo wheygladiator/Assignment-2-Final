@@ -38,7 +38,6 @@ There are 6 possible values:
 ## The Measurements
 The variables are just the calculated standard deviations and means of these sets of data:
 By comparing my data set with the original data column you can see what it means. 
-The values are the average for each feature by subject and activity
 
 * tBodyAccMeanX
 * tBodyAccMeanY
